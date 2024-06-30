@@ -1,0 +1,6 @@
+create database Library;
+use Library;
+create table Books(Name varchar(50), Code varchar(10), Subject varchar(50), Total int);
+create table Issue(Issued_for varchar(50), RegNo int,Code varchar(10), Subject varchar(50), Issue varchar(50));
+create table Submit(Submitted_by varchar(50), RegNo int,Code varchar(10), Subject varchar(50), Submit varchar(50));
+
